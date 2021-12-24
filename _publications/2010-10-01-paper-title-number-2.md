@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "Improved Rover Mobility Over Loose Deformable Slopes through Active Control of Body-Rotating Mechanism"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
+permalink: /publication/2021-09-09-paper-title-number-1
+excerpt: 'Improve mobility!'
+date: 2021-09-09
+venue: # 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
 citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+Shipeng Lv, Yuntian Zhao, Zhenyang Chen, Chengyuan Gao, Longteng Hu, and Zhenzhong Jia
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+[Download paper here](http://academicpages.github.io/files/ImproveRoverMobility.pdf)
