@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zhenyang (Daniel) Chen"
-  avatar           : "zhenyang.png"
+  avatar           : "zhenyang2.png"
   bio              : "Stay hungry. Stay foolish."
   location         : "Cambridge, MA"
   employer         :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/ChenZhenY"
+  github           : "/ChenZhenY"
   google_plus      :
   keybase          :
   instagram        :
