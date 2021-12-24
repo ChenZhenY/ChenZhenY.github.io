@@ -1,7 +1,7 @@
 ---
 title: "Improved Rover Mobility Over Loose Deformable Slopes through Active Control of Body-Rotating Mechanism"
 collection: publications
-permalink: /publications/2021-09-09-ImproveMobility-number-1
+permalink: /publications/2021-09-09-ImproveMobility-number-1/
 excerpt: 'Shipeng Lv, Yuntian Zhao, Zhenyang Chen, Chengyuan Gao, Longteng Hu, and Zhenzhong Jia'
 date: 2021-09-09
 venue: 'The IEEE 27th International Conference on Mechatronics and Machine Vision in Practice (M2VIP 2021)'
