@@ -11,7 +11,7 @@ Investigated the effect of swing leg on hopping robot. 2.74 Bio-inspired robotic
 
 Hey, what is this?
 ====
-![man](image/../../images/hopping-robot/idea.png "single leg hopping")
+![man](/images/hopping-robot/idea.png "single leg hopping")
 Our inspiration came from single leg hopping. And we tried to gain some new insights from it. Here are the questions we wanted to answer through the project:
 1. What is the relative phase between swing and hopping legs that causes the robot to jump the farthest?
 2. What is the effect of active swing of the swing leg on robot average speed?
@@ -24,11 +24,11 @@ Intuitively, we argued that firing the swing leg forward would increase the grou
 Simulation
 ===
 
-![sim](images/../../images/hopping-robot/simulation.png "Hopping with swing leg")
+![sim](/images/hopping-robot/simulation.png "Hopping with swing leg")
 
 Deriving the system dynamic
 ---
-![model](iamges/../../images/hopping-robot/model.png "Simulation model")
+![model](/images/hopping-robot/model.png "Simulation model")
 We derived the dynamic using Lagrangian method with five generalized coordinates. To simplify the problem, we fixed the orientation of the hip (at point o). The motors for hip and knee are placed at O and A.
 
 Control scheme overview
@@ -73,7 +73,7 @@ Result
 ![swing1](\../images/hopping-robot/Success_swing_hop_20220104162457.gif "Out phase swing leg to maximize distance")
 ![swing2](\../images/hopping-robot/Swing_in_phase_20220104162410.gif "In phase swing leg to minimize distance")
 
-To look into the effect of two key varibles phase_shift and swing_ratio and sweep over the parameters space, we fixed swing_ratio to 0.1(blue) 0.5(yellow) and 0.9(green) to indicate the effect of phase shift. We used the longest jump joint position trajectory without swing leg as the baseline, which is shown in read.
+To look into the effect of two key varibles phase_shift and swing_ratio and sweep over the parameters space, we fixed swing_ratio to 0.3(blue) 0.4(yellow) and 0.5(green) to indicate the effect of phase shift. We used the longest jump joint position trajectory without swing leg as the baseline, which is shown in red.  
 Phase_shift: range [-1, 1], -1 means completely out phase when the swing leg goes the opposite direction contrast to hopping leg, while 1 means the the swing leg in phase with hopping leg.
 
 ![result](/images/hopping-robot/Phase%20vs%20distance%20345.png)
@@ -82,7 +82,7 @@ Phase_shift: range [-1, 1], -1 means completely out phase when the swing leg goe
 Negative phase shifts seems to achieve longer hopping distances than positive ones. In the clear trends for the swing_ratio = .5 curve, the robot hops further when the swing leg leads the hopping leg (phase_shift < 0) than when the swing leg lags the hopping leg (phase_shift > 0). In fact, distance hopped is greater than the baseline control for the former and less than the baseline control for the latter. The curve of best fit hints strongly at a periodic, sinusoidal trend.
 
 **swing_ratio**  
-A swing ratio of .5 was most successful for producing valid experimental runs. This is likely due to aggressive swings (swing_ratio = .1) perturbing the system beyond stable hopping behavior, and long swings (swing_ratio = .9) shifting the center of mass of the system for large amounts of time beyond what the hopping control can handle. As impulse is the integral of force over time, we hypothesize that there is a nontrivially optimal swing ratio for each phase shift value such that the system is stable and receives the largest impulse from the swing leg.
+A swing ratio of .5 was most successful for producing valid experimental runs. This is likely due to aggressive swings (swing_ratio = .3) perturbing the system beyond stable hopping behavior, and long swings (swing_ratio = .5) shifting the center of mass of the system for large amounts of time beyond what the hopping control can handle. As impulse is the integral of force over time, we hypothesize that there is a nontrivially optimal swing ratio for each phase shift value such that the system is stable and receives the largest impulse from the swing leg.
 
 Hardware Experiment
 ===
