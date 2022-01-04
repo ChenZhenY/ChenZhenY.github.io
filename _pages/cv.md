@@ -15,7 +15,7 @@ Academic Experience
   
   Southern University of Science and Technology (SUSTech), Shenzhen China, 9/2018-6/2022 (expected)
   
-  Exchange Program, Massachusetts Institute of Technology (MIT), 2021.9-2022.5 (expected)
+  Exchange Program, Massachusetts Institute of Technology (MIT), 9/2021-5/2022 (expected)
   
 Service and leadership
 ======
