@@ -28,7 +28,7 @@ Simulation
 
 Deriving the system dynamic
 ---
-![model](/images/hopping-robot/model.png "Simulation model")
+![model](/images/hopping-robot/model.png "Simulation model")  
 We derived the dynamic using Lagrangian method with five generalized coordinates. To simplify the problem, we fixed the orientation of the hip (at point o). The motors for hip and knee are placed at O and A.
 
 Control scheme overview
@@ -86,7 +86,21 @@ A swing ratio of .5 was most successful for producing valid experimental runs. T
 
 Hardware Experiment
 ===
-**To be updated...**
+
+Hardware setup
+---
+![hardware](/images/hopping-robot/hardware_model.png)
+
+We designed a 3-DoF hopping leg with reference to the lab leg. We used three 12V [brushed motor](https://www.pololu.com/product/2822) with 19:1 gearbox to drive swing leg and hopping leg. To see the effect of swing leg, we had to add some weight on it which made the robot harder to jump. To make it easier to jump, we used a boom limit its motion and add counter weight on the other end. The boom would influence the motion and change the rotation inertia of the system. But if we made the arm attached to the leg a lot longer than the arm attached to the counter weight, we can neglect the effect of the boom.
+
+Control method
+---
+![control](/images/hopping-robot/control.png)
+For the stance phase control, we used feedforward torque (from simulation result) + PD control to follow optimized trajectories. For the flight phase control, we used PD control to restore to landing position. The control command frequency is 200hz while motor controller runs at 1000hz.
+
+Hardware experiment
+---
+![hardware](/images/hopping%20robot/SingleLegHopping_20220108185150.gif)
 
 
 Future Work and Thoughts?

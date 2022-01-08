@@ -19,7 +19,7 @@ Academic Experience
   
 Service and leadership
 ======
-* 6/2020-6/2021: President of College Peer Mentors, lead a team of 15.
+* 6/2020-6/2021: President of College Peer Mentors, led a team of 15.
 * 9/2018-9/2019: Member of SUSTech Volunteers' Association
   * Organized the volunteer training for the whole university and prize events.
   * Had 40 plus hours of volunteer service.
