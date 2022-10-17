@@ -3,19 +3,25 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+cvurl: 'http://chenzheny.github.io/files/ZhenyangChen-CV-220911.pdf'
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
+[Download CV here](http://chenzheny.github.io/files/ZhenyangChen-CV-220911.pdf)
 
-Academic Experience
+Education
 ======
+* **MS in Robotic**
+  
+  Georgia Institute of Technology (Gatech), Atlanta, 8/2022-6/2024 (expected)
+
 * **B.Eng in Robotics Engineering**
   
-  Southern University of Science and Technology (SUSTech), Shenzhen China, 9/2018-6/2022 (expected)
+  Southern University of Science and Technology (SUSTech), Shenzhen China, 9/2018-6/2022
   
-  Exchange Program, Massachusetts Institute of Technology (MIT), 9/2021-5/2022 (expected)
+  Exchange Program, Massachusetts Institute of Technology (MIT), 9/2021-5/2022
   
 Service and leadership
 ======
