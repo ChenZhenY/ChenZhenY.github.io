@@ -31,7 +31,7 @@ Videos!
 
 What I learned
 ===
-Here are some thoughts I have after taking this amazing course. We also wrote down all our technical details and experiments charts, analysis in the lab report. Check them out if interested!
+Here are some thoughts I have after taking this amazing course. We also wrote down all our technical details and experiments charts, analysis in the [lab reports](https://rss2022-9.github.io/website/labs/). Check them out if interested!
 1. Good teamwork is important for solving complicated engineering problem. As long as everyone in the team knows what they are doing and how they can push the team forward, the team can actually achieve a healthy balance and make progress. At the mean time, don't forget to communicate and praise team members!
 2. Get your hand dirty. As an engineer, the best way to learn is combining theory and implementing together. I appreciate how much MIT values the hands-on experience. The course is very intense, even I have experience in ROS and autonomous roobt before, it's still challenging to build and make everything work in a short time. And this also pushes my understanding and skill to a new level.
 3. Know more and see a bigger picture. Robot is a complicated system. To design a system to accomplish certain tasks, there are lots to consider. That's why konwing the characteritics of different techiniques are important, and analyzing the challenges we are facing and selecting the corret technical roadmap is even more important! Always good to see a big picture when you're working on something.
