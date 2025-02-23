@@ -13,9 +13,13 @@ redirect_from:
 
 Education
 ======
+* **Ph.D in Robotics**
+  
+  Georgia Institute of Technology (Gatech), Atlanta, 8/2024-Present
+
 * **MS in Robotic**
   
-  Georgia Institute of Technology (Gatech), Atlanta, 8/2022-6/2024 (expected)
+  Georgia Institute of Technology (Gatech), Atlanta, 8/2022-6/2024
 
 * **B.Eng in Robotics Engineering**
   
