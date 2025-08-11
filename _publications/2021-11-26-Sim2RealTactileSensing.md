@@ -2,7 +2,7 @@
 title: "Bi-Directional Sim-to-Real Transfer for GelSight Tactile Sensors with CycleGAN"
 collection: publications
 permalink: /publications/2021-Sim2RealTactile/
-excerpt: 'Weihang Chen, Yuan Xu, Zhenyang Chen, Peiyu Zeng, Renjun Dang, Rui Chen and Jing Xu'
+excerpt: 'Weihang Chen, Yuan Xu, **Zhenyang Chen**, Peiyu Zeng, Renjun Dang, Rui Chen and Jing Xu'
 date: 2021-11-26
 venue: 'IEEE Robotics and Automation Letters (RA-L)'
 paperurl: 'http://chenzheny.github.io/files/Gelsight_CycleGAN_Conference.pdf'
