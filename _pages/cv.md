@@ -3,13 +3,13 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-cvurl: 'http://chenzheny.github.io/files/ZhenyangChen-CV-220911.pdf'
+cvurl: 'http://chenzheny.github.io/files/Job_CV_2025.pdf'
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
-[Download CV here](http://chenzheny.github.io/files/ZhenyangChen-CV-220911.pdf)
+[Download CV here](http://chenzheny.github.io/files/Job_CV_2025.pdf)
 
 Education
 ======
